@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+
+
+
+*{
+    background-color: #f6e5e5;
+    font-family: 'Dosis', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+header{
+ /* position: sticky; */
+
+}
+
+nav {
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#welcome{
+    font-weight: 700;
+    font-size: larger;
+    color: rgb(73, 41, 10);
+}
+
+.h1{
+    box-sizing: border-box;
+    border: 2px black solid;
+    border-radius: 15px;
+    background-color: #eeeded6c;
+    display: block;
+    padding: 1em 2em;
+    width:76.5%;
+    margin: 2rem 10rem;
+
+
+}
+
+.para{
+    /* position: relative; */
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.chil{
+    /* position: absolute; */
+    background-color: #352961;
+    height: 16rem;
+    width: 15rem;
+    display: inline-block;
+    border-radius:2cqb;
+}
+
+.p1{
+    text-align: center;
+    margin-top: 11%;
+}
+
+.up{
+    margin-top: 25px;
+    margin-bottom: 0;
+    padding: 0;
+    padding-top: 16px;
+
+    background-color: #f6e5e5;
+    border-radius: 100cqb 0 100cqb 100cqb ;
+    height: 4rem;
+    width: 14vh;
+    display: inline-block;
+ 
+}
+
+.p1, .more{
+    background-color: #352961;
+    color: antiquewhite;
+
+
+}
+.more{
+    margin-top: 1.5rem;
+    display: inline-block;
+}
+
+.camerapic{
+    height: 3rem;
+    width: 3rem;
+    background-color: #f6e5e5;
+    
+}
+
+.hey{display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;}
+.genre{
+    background-color: #774181;
+     height: 20rem; width: 12rem;
+    margin-top: 1rem;
+    border-radius: 3cqb;
+    display: flex;
+justify-content: center;
+flex-wrap: wrap;}
+.genrepic{
+    height: 4rem;
+    width: auto;
+    /* display: flex;; */
+    background-color: #774181;
+    margin: 0;
+margin-top: 7rem;
+}
+
+.mspan{ 
+    height: 4rem;
+    width: 14vh;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 2rem; width: 2rem; 
+background-color: #774181;}
+.pgenre{
+    height: 1rem;
+    margin: 0;
+    padding: 0;
+    margin-top: 10rem;
+    text-align: center;
+     color: antiquewhite; 
+     background-color: #774181;
+      font-size:Xx-large;}
+
